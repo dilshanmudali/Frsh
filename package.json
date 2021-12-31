@@ -1,0 +1,11 @@
+{
+  "name": "frsh",
+  "version": "1.0.0",
+  "description": "forum for bootcamp grads",
+  "main": "server.js",
+  "scripts": {
+    "test": "test"
+  },
+  "author": "Dilshan Mudali",
+  "license": "MIT"
+}
