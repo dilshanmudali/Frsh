@@ -4,7 +4,8 @@
   "description": "forum for bootcamp grads",
   "main": "server.js",
   "scripts": {
-    "test": "test"
+    "start": "node server",
+    "server": "nodemon server"
   },
   "author": "Dilshan Mudali",
   "license": "MIT",
