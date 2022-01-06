@@ -51,6 +51,7 @@ router.post('/',[
                 id: user.id
             }
         }
+
         jwt.sign(
             payload,
             config.get('jwtSecret'),
@@ -60,6 +61,7 @@ router.post('/',[
                 res.json({token})
             } 
         )
+       
     } catch (err) {
         console.error(err.message)
         res.status(500).send('Server Error')
